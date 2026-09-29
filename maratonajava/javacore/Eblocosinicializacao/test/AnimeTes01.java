@@ -8,7 +8,5 @@ public class AnimeTes01 {
         for (int episodio : anime.getEpisodios()) {
             System.out.print(episodio+" ");
         }
-
-
     }
 }
