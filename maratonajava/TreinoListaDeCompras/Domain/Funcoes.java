@@ -6,6 +6,11 @@ public class Funcoes {
     Scanner scanner = new Scanner(System.in);
     ArrayList<String> lista = new ArrayList<>();
 
+    public int lerMensagem(int controlador){
+        controlador = scanner.nextInt();
+        return controlador;
+    }
+
     public void adcionarProdutos(){
         System.out.println("Adcione o produto: ");
         String produto = scanner.nextLine();

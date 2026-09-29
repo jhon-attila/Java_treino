@@ -2,12 +2,10 @@ package teste.curso.maratonajava.TreinoListaDeCompras.Lista;
 import teste.curso.maratonajava.TreinoListaDeCompras.Domain.Funcoes;
 
 import java.util.ArrayList;
-import java.util.Scanner;
 
 public class ListaDeCompra {
     public static void main(String[] args){
         Funcoes func = new Funcoes();
-        Scanner scanner = new Scanner(System.in);
         int opcao = 0;
         while(opcao != 5){
             System.out.println("\nLista de Compras!!!");
@@ -18,7 +16,7 @@ public class ListaDeCompra {
                     "4 - Pesquisar produto\n" +
                     "5 - Sair");
 
-            opcao = scanner.nextInt();
+            opcao = func.lerMensagem(opcao);
 
             switch (opcao){
                 case 1:
