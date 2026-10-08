@@ -1,8 +1,6 @@
 package teste.curso.maratonajava.TreinoListaDeCompras.Lista;
 import teste.curso.maratonajava.TreinoListaDeCompras.Domain.Funcoes;
 
-import java.util.ArrayList;
-
 public class ListaDeCompra {
     public static void main(String[] args){
         Funcoes func = new Funcoes();
