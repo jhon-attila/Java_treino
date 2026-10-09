@@ -1,6 +1,6 @@
-package teste.curso.maratonajava.javacore.Cadastroescola.Domain;
+package teste.curso.maratonajava.Cadastroescola.Domain;
 
-public class Aluno extends Pessoa{
+public class Aluno extends Pessoa {
     private int matricula;
     private String turma;
 

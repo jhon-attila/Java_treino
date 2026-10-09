@@ -1,4 +1,4 @@
-package teste.curso.maratonajava.javacore.Cadastroescola.Domain;
+package teste.curso.maratonajava.Cadastroescola.Domain;
 
 public class Pessoa {
     protected String nome;

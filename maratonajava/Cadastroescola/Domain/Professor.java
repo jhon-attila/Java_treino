@@ -1,6 +1,6 @@
-package teste.curso.maratonajava.javacore.Cadastroescola.Domain;
+package teste.curso.maratonajava.Cadastroescola.Domain;
 
-public class Professor extends Pessoa{
+public class Professor extends Pessoa {
     private double salario;
     private String disciplina;
 

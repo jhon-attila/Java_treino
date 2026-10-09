@@ -1,7 +1,7 @@
-package teste.curso.maratonajava.javacore.Cadastroescola.Test;
+package teste.curso.maratonajava.Cadastroescola.Test;
 
-import teste.curso.maratonajava.javacore.Cadastroescola.Domain.Aluno;
-import teste.curso.maratonajava.javacore.Cadastroescola.Domain.Professor;
+import teste.curso.maratonajava.Cadastroescola.Domain.Aluno;
+import teste.curso.maratonajava.Cadastroescola.Domain.Professor;
 
 import java.util.Scanner;
 
